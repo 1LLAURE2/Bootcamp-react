@@ -32,7 +32,7 @@ export const Header = () => {
                 onClick={()=>setRoute("home")}
             >
                 <SiFirebase className='text-2x1 text-pink-600'/>
-                <span className='text-xl font-semibold text-pink-600'>FireShopping</span>
+                <span className='text-xl font-semibold text-pink-600'>FireShopping v2</span>
             </div>
             <div className="flex gap-2">
                 {user?(
